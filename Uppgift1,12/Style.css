@@ -1,0 +1,89 @@
+html{
+  font-family: Verdana, Tahoma, sans-serif, monospace;
+}
+
+main{
+  margin-top: 15vh;
+}
+
+nav{
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  height: 5vh;
+  top:0;
+  left: 0;
+  font-size: 1.05rem;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  background-color: hsla(250, 50%, 50%, 1);
+  height: 10vh;
+  box-shadow: 0 3px 10px rgb( 0, 0, 0, 0.6)
+}
+
+.lista{
+  margin-top: 3.3vh;
+  display: inline-block;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+  padding: 4.35vh 2.5vw;
+}
+
+a:hover{
+  background-color:honeydew;
+  color: black;
+}
+
+.active{
+  color: white;
+}
+
+h1{
+  text-align: center;
+}
+
+article{
+  border-style: solid;
+  border: 5px 5px;
+  border-radius: 1em 1em 1em 1em;
+  padding: 2rem;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+p{
+  margin-top: 5vh;
+  font-size: 1em;
+}
+
+h2{
+  margin-top: 5vh;
+}
+
+table{
+  border-collapse:collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+th, td{
+  border:1px solid black;
+  padding: 1em;
+}
+
+th{
+  text-transform: uppercase;
+}
+
+caption{
+  font-weight: bold;
+}

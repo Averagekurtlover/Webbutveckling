@@ -1,0 +1,78 @@
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS kunskapsida</title>
+  <link href="Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="lista"><a href="HTML basics.html">HTML basics</a></li>
+      <li class="lista"><a href="HTML historia.html">HTML historia</a></li>
+      <li class="lista"><a href="HTML-tags.html">HTML tags</a></li>
+      <li class="lista"><a class="active"href="CSS kunskapssida.html" onclick="return false">CSS kunskapssida</a></li>
+      <li class="lista"><a href="Interoperabilitet.html">Interoperabilitet</a></li>
+      <li class="lista"><a href="JS kunskapssida.html">JS kunskapssida</a></li>
+      <li class="lista"><a href="Webborientering.html">Webborientering</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>CSS kunskapssida</h1>
+    <article>
+        <h2>1.Vad är CSS? Hur används det? </h2>
+        <p>Cascading style sheet. Används för att stilisera HTML kod. För att styra utseendet och layout av webbsidor.</p>
+
+        <h2>2.Vad är skillnaden mellan inline-stil, inbäddad stil och extern stil i CSS?</h2>
+        <p>Inbäddad CSS är i HTML och då riktar vi det mot element och beskriver vad vi vill göra med den. Inline är när man skriver CSS direkt i tagen. Extern innebär att CSS koden inte finns i HTML utan i dess egna CSS-dokument. 
+        </p>
+
+        <h2>3.Vad är en selektor i CSS och hur används den?</h2>
+        <p>Används för att rikta stilmallen till specifika element.</p> 
+        <ol>
+          <li>enkla - väljer utifrån namn,id och klass</li>
+          <li>kombinerade - väljer utifrån ett specifikt förhållande, till exempel " child" till ett parent element.</li>
+          <li>pseudo klass - väljer utifrån vad som händer med ett element tex :hover</li>
+          <li>pseudoelement - väljer del av element ex första bokstaven/linjen i p></li>
+          <li>attribut - väljer utifrån angivet attribut på element</li>
+        </ol>
+
+        <h2>4.Vad är skillnaden mellan klass-selektor och ID-selektor i CSS?</h2>
+        <p>Id är ett specifikt namn, id bör bara existera en gång jämfört med klass som kan användas för flera element.</p>
+
+        <h2>5.Vad är kaskadordningen i CSS och hur påverkar den hur stilar tillämpas på element?</h2>
+        <p>En ordning för att avgöra vilka stilregler som ska tillämpas på ett element</p>
+        <ol>
+          <li>Arv - om element saknar regler så söks “föräldrars” stilregel och appliceras.</li>
+          <li>relevans - behåller enbart regler som matchar element</li>
+          <li>ursprung och betydelse- sorterar regler baserat på hur viktiga de är och vem som applicerat dem </li>
+          <li>noggrannhet - väljer regler med högre specificitet om relevanta regler har samma ursprung och betydelse</li>
+          <li>Ordning - om specifika regler har samma ursprung och betydelse väljer kaskadmodellen det senaste angivna värdet i källkoden.</li>
+        </ol>
+
+        <h2>6.Vad är responsiv webbdesign och hur kan CSS användas för att skapa responsiva layouter?</h2>
+        <p>Man kan använda flexbox och grid layout. Det är att göra så att hemsidan ser bra ut och så att alla ska kunna navigera hemsidan.</p>
+
+        <h2>7.Vad är boxmodellen i CSS och vilka element påverkas av den?</h2>
+        <p>Alla HTML-element ses som boxar. Längst in i lådan har vi content. Contenten är wrappad av padding. Utanför padding så finns det border och efter border finns margin. Använder float och clear för att positionera. Margin frigör utrymme utanför lådan och padding gör det inuti lådan. 
+        </p>
+
+        <h2>8.Vad är "grid layout" och hur skiljer det sig från "flexbox"?</h2>
+        <p>Flexbox har inbyggt att man kan krympa/ växa element beroende på skärmstorlek. Flexbox kan bara gå i en riktig medans grid layout använder både rader och kolumner.
+        </p>
+
+        <h2>9.Vad är skillnaden mellan positionering med "static", "relative", "absolute" och "fixed" i CSS?</h2>
+        <ol>
+          <li>Static - standard påverkas inte av regler</li>
+          <li>Relative - positionerar relativt till sitt ursprungliga läge men påverkas av andra regler</li>
+          <li>Absolute - positionerar relativt till det närmaste föräldrar elementet och den som fixed följer med scrollning.</li>
+          <li>Fixed - fast position i förhållande till webbläsarfönstret och påverkas inte av rolling</li>
+        </ol>
+    </article>
+  </main>
+  <footer>
+    
+  </footer>
+  
+</body>
+</html>

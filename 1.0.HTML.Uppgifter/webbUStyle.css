@@ -1,0 +1,93 @@
+main{
+  /*hex */
+  color:#ff0000 ;
+  color: #00ff00;
+  color: #0000ff;
+  /* hex + opacity*/
+  color: #405721ff;
+
+  /* rgb*/
+  background-color: rgb(255,0,0);
+  background-color: rgb(0,255,0);
+  background-color: rgb(0,0,255);
+  /*rgb + opacity */
+  background-color: rgb(255,0,255,0.5);
+  
+  /*HSL (hue,saturation,lightness)*/
+  background-color: hsl(240,50%,50%);
+
+  /*HLSA (+ opacity */
+  background-color: hsla(250, 50%, 50%, 0.5);
+
+  /*predefined names*/
+  color: honeydew;
+
+  /* serif - fötter, sans-serif - utan fötter, monospace - lika bredda, cursive , fantasy - dekorativ */
+  font-family: "Times New Roman", monospace;
+
+  margin-top: 14vh;
+  /*Storlekar*/
+  /*
+  text_strolekar:
+    px - pixels(absoult och inte relativ) UNDVIK
+    em - används oftast för text och den är relativ till sitt föräldrar element (responsiv)
+      föräldrar element ha storlek 16 px
+      barnelement: 1 em
+      blir då 1 * 16
+    rem - relativ enhet, relativ till html elementet
+      Html-elementet: 8px;
+      barnelemement;2rem; (2*8)
+
+  element på sidan:
+    % - relativ enhet, relativ till föräldrarelementet
+      föräldrarelement:1920 px;
+      barnelemtent: width 50%;(50% av föräldrarelementet)
+    vh - viewport height
+      height:10vh; (10% av viewport höjden)
+    vw - viewport width
+      width:0,7vw; (0,7% av viewport widht)
+    
+
+  */
+  
+}
+
+nav{
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  padding: 25px;
+  background-color: hsla(250, 50%, 50%, 0.8);
+}
+
+a{
+  text-decoration:none;
+  color:black;
+  padding: 5vh 6vw;
+}
+
+li{
+  display: inline-block;
+  padding: 2vh 2vw;
+  text-align: center;
+}
+
+a:hover{
+  background-color:hsla(250, 100%, 50%, 0.7);
+  color:white;
+}
+
+.active{
+  color: white;
+}
+
+html{
+  background-color: hsla(250, 50%, 50%, 0.5);
+}
