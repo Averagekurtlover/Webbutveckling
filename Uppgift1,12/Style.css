@@ -7,32 +7,34 @@ main{
 }
 
 nav{
+  display: flex;
   text-align: center;
   width: 100%;
   position: fixed;
-  height: 5vh;
+  height: 10vh;
   top:0;
   left: 0;
   font-size: 1.05rem;
+  background-color: hsla(250, 50%, 50%, 1);
 }
 
 ul{
+  width: 100%;
   list-style-type:none;
   margin:0;
-  background-color: hsla(250, 50%, 50%, 1);
   height: 10vh;
   box-shadow: 0 3px 10px rgb( 0, 0, 0, 0.6)
 }
 
 .lista{
-  margin-top: 3.3vh;
+
   display: inline-block;
 }
 
 a{
   text-decoration:none;
   color:black;
-  padding: 4.35vh 2.5vw;
+  padding: 4vh 2.5vw;
 }
 
 a:hover{
