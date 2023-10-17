@@ -11,22 +11,21 @@ main{
 }
 
 nav{
-  display: flex;
-  text-align: center;
   width: 100%;
   position: fixed;
   height: 10vh;
   top:0;
   left: 0;
-  font-size: 1.05rem;
+  font-size: 100%;
   background-color: hsla(250, 50%, 50%, 1);
+ 
 }
 
 ul{
   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 100%;
   list-style-type:none;
   margin:0;
   height: 10vh;
@@ -34,14 +33,14 @@ ul{
 }
 
 .lista{
-  margin-top: 3.3vh;
   display: inline-block;
 }
 
 a{
+  display: block;
   text-decoration:none;
   color:black;
-  padding: 4vh 2.5vw;
+  padding: 2em 2em;
 }
 
 a:hover{
@@ -55,6 +54,7 @@ a:hover{
 
 h1{
   text-align: center;
+  color: white;
 }
 
 article{
