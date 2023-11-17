@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding:0;
+  }
+  .flex-container{
+    height:100vh;
+    width:100vw;
+    background-color: darkgray;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap-reverse;
+    align-content: flex-start;
+  }
+  @media screen and (max-width:800px){
+    .flex-container{
+      background-color: blueviolet;
+      flex-wrap:wrap;
+      align-items:stretch;
+    }
+  }
+  .moveable-box{
+    padding:1em;
+    height:3em;
+    width:5em;
+    color:white;
+    font-size:2em;
+    text-align: center;
+  }
+  div:hover{
+    background-color: black;
+  }
+  #red{
+    background-color: chocolate;
+    order: 1;
+    align-self: flex-end;
+  }
+  #green{
+    background-color: chocolate;
+    align-self: flex-end;
+  }
+  #yellow{
+    background-color: chocolate;
+    align-self: flex-start;
+    
+  }
+  #blue{
+    background-color: chocolate;
+    order: -1;
+    align-self: flex-start;
+  }

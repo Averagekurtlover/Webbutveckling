@@ -2619,19 +2619,19 @@ table.jobs td a,table.launches td a,table.regular td a {
 }
 
 #human-spaceflight #mission-iss .background {
-    background-image: url(static/images/backgrounds/human_spaceflight_iss.jpg)
+    background-image: url("cms-assets/assets/CRS_29_ccsfs_DSC_0750_desktop_6f976c8d20.jpg")
 }
 
 #human-spaceflight #mission-earth .background {
-    background-image: url(static/images/backgrounds/human_spaceflight_earth.jpg)
+    background-image: url(cms-assets/assets/Flight_2_Homepage_Desktop_a3d65abd76.jpg)
 }
 
 #human-spaceflight #mission-moon .background {
-    background-image: url(static/images/backgrounds/human_spaceflight_moon.jpg)
+    background-image: url(cms-assets/assets/O3b_m_POWER_C_outsidewater_IMG_2808_desktop_096c6f9bce.jpg)
 }
 
 #human-spaceflight #mission-mars .background {
-    background-image: url(static/images/backgrounds/human_spaceflight_mars.jpg)
+    background-image: url(cms-assets/assets/Trans_9_7747_SW_Hill_Horiz_Desktop_75241caad0.jpg)
 }
 
 #trademark .column .item {
@@ -4525,7 +4525,7 @@ body.isDesktop #footer p a:focus,body.isDesktop #footer p a:hover,body.isDesktop
     }
 
     #human-spaceflight #mission-earth .background {
-        background-image: url(static/images/backgrounds/human_spaceflight_earth-mobile.jpg)
+        background-image: url(cms-assets\assets\CRS_29_ccsfs_DSC_0750_desktop_6f976c8d20.jpg)
     }
 
     #human-spaceflight #mission-earth .inner-right-middle {
@@ -4536,7 +4536,7 @@ body.isDesktop #footer p a:focus,body.isDesktop #footer p a:hover,body.isDesktop
     }
 
     #human-spaceflight #mission-iss .background {
-        background-image: url(static/images/backgrounds/human_spaceflight_iss-mobile.jpg)
+        background-image: url(cms-assets/assets/Flight_2_Homepage_Desktop_a3d65abd76.jpg)
     }
 
     #human-spaceflight #mission-iss .inner-left-bottom {
@@ -4548,7 +4548,7 @@ body.isDesktop #footer p a:focus,body.isDesktop #footer p a:hover,body.isDesktop
     }
 
     #human-spaceflight #mission-moon .background {
-        background-image: url(static/images/backgrounds/human_spaceflight_moon-mobile.jpg)
+        background-image: url(cms-assets/assets/O3b_m_POWER_C_outsidewater_IMG_2808_desktop_096c6f9bce.jpg)
     }
 
     #human-spaceflight #mission-moon .inner-right-middle {
@@ -4558,7 +4558,7 @@ body.isDesktop #footer p a:focus,body.isDesktop #footer p a:hover,body.isDesktop
     }
 
     #human-spaceflight #mission-mars .background {
-        background-image: url(static/images/backgrounds/human_spaceflight_mars-mobile.jpg)
+        background-image: url(cms-assets/assets/Trans_9_7747_SW_Hill_Horiz_Desktop_75241caad0.jpg)
     }
 
     #human-spaceflight #mission-mars .inner-left-middle {
